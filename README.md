@@ -16,6 +16,24 @@ The Android OS OpenSpace SDK will enable you to create free and commercial mobil
 ![Splash-ScreenShot](https://github.com/OrdnanceSurvey/OS-Droid-Buddy/raw/master/srcsht-splash.png "Screenshot of splash screen")
 ![Map-ScreenShot](https://github.com/OrdnanceSurvey/OS-Droid-Buddy/raw/master/srcsht-map.png "Screenshot of map")
 
+### Installation
+
+## Build
+This project uses maven.  You must install two maven dependencies manually because they are not available in maven central.
+
+1. [Android SDK and Support library](https://github.com/mosabua/maven-android-sdk-deployer)
+
+2. The OS Open Space SDK, see sdk/README.txt.
+
+## API Keys
+
+Please ensure that you:
+
+1. replace the 'tile_source_key' string resource value with an API key obtained from [Ordnance Survey](https://openspaceregister.ordnancesurvey.co.uk/osmapapi/register.do)
+
+2. replace 'twitter_public_key' and 'twitter_public_secret' with your twitter app credials, see the [twitter dev site](https://dev.twitter.com/) for further details.
+
+
 ### OpenSpace Android SDK
 
 The mapping component in this demonstration is powered by the [OpenSpace Android SDK][1], available subject to the BSD licence terms.
