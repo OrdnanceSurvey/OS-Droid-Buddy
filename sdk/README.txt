@@ -1,5 +1,3 @@
-mvn install:install-file -Dfile=osmapandroid-1.jar -DgroupId=uk.co.ordnancesurvey -DartifactId=osmapandroid -Dversion=1 -Dpackaging=jar
+Install the SDK as a maven dependency using:
 
-
-
-mvn install:install-file -Dfile=<path-to-file> -DpomFile=<path-to-pomfile>
+mvn install:install-file -Dfile=osmapandroid-1.0.6.jar -DpomFile=pom.xml
