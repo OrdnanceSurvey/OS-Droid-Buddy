@@ -18,14 +18,14 @@ The Android OS OpenSpace SDK will enable you to create free and commercial mobil
 
 ### Installation
 
-## Build
+#### Build
 This project uses maven.  You must install two maven dependencies manually because they are not available in maven central.
 
 1. [Android SDK and Support library](https://github.com/mosabua/maven-android-sdk-deployer)
 
 2. The OS Open Space SDK, see sdk/README.txt.
 
-## API Keys
+#### API Keys
 
 Please ensure that you:
 
