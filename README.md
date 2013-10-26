@@ -13,8 +13,8 @@ Key Features:
 
 The Android OS OpenSpace SDK will enable you to create free and commercial mobile applications with our data. It provides access to a number of mapping layers and gazetteer lookups and has a similar API to Google Maps, so that moving from Google mapping to Ordnance Survey mapping is simple.
 
-![Splash-ScreenShot](https://github.com/OrdnanceSurvey/droidcon2013/raw/master/srcsht-splash.png "Screenshot of splash screen")
-![Map-ScreenShot](https://github.com/OrdnanceSurvey/droidcon2013/raw/master/srcsht-map.png "Screenshot of map")
+![Splash-ScreenShot](https://github.com/OrdnanceSurvey/OS-Droid-Buddy/raw/master/srcsht-splash.png "Screenshot of splash screen")
+![Map-ScreenShot](https://github.com/OrdnanceSurvey/OS-Droid-Buddy/raw/master/srcsht-map.png "Screenshot of map")
 
 ### OpenSpace Android SDK
 
