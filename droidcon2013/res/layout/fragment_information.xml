@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" android:background="@drawable/search_background">
+    <View
+        android:background="@color/os_pink"
+        android:layout_height="5dip"
+        android:layout_width="match_parent" />
+    <WebView
+        android:id="@+id/help_webview"
+        android:layout_height="0dip"
+        android:layout_width="match_parent"
+        android:layout_weight="1" />
+    <View
+        android:background="@color/os_purple"
+        android:layout_height="5dip"
+        android:layout_width="match_parent" />
+</LinearLayout>

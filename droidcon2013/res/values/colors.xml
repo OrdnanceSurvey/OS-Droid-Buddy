@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="thirty_pc_black">#4C000000</color>
+    <color name="light_grey">#FFF0F0F0</color>
+    <color name="mid_grey">#FFC8C8C8</color>
+    <color name="dark_grey">#FF949097</color>
+    <color name="darkest_grey">#FF5B5B5B</color>
+    <color name="os_purple">#FF2F287F</color>
+    <color name="os_pink">#FFC40079</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_background">
+
+    <WebView
+        android:id="@+id/fragment_twitter_authorisation_webview"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/fragment_twitter_authorisation_layout_progress"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/fragment_twitter_authorisation_progress"
+            android:indeterminate="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/fragment_twitter_authorisation_txt_feedback"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/fragment_twitter_authorisation_progress"
+            android:text="@string/twitter_processing_access" />
+
+        <Button  android:id="@+id/fragment_twitter_authorisation_btn_retry"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            android:layout_below="@id/fragment_twitter_authorisation_txt_feedback"
+            android:text="@string/twitter_processing_retry" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

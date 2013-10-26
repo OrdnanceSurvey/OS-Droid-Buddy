@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App Level Items -->
+    <string name="app_name">OS Droid Buddy</string>
+    <string name="content_provider_label">OS Droid 2013 Content Provider</string>
+    <string name="tile_source_key">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">OS Droid Buddy</string>
+    <string name="splash_blurb">OS powered to tweet your thoughts, views and location @ Droidcon 2013</string>
+    <string name="splash_info">Select an item from the control bar to get started</string>
+
+    <!-- Buddy Map -->
+    <string name="fragment_buddymap_attribution">&#169; Crown copyright and database rights 2013 Ordnance Survey</string>
+    <string name="fragment_buddymap_droidcon_title">Droidcon 2013</string>
+    <string name="fragment_buddymap_droidcon_snippet">Come see us on the OS Stand at Droidcon 2013.</string>
+    <string name="fragment_buddymap_user_title">My Location</string>
+
+    <!-- Twitter Authorisation -->
+    <string name="twitter_public_key">XXXXXXXXXXXXXXXXXXXXXX</string>
+    <string name="twitter_public_secret">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</string>
+    <string name="twitter_public_referrer">http://www.ordnancesurvey.co.uk</string>
+    <string name="twitter_processing_access">Requesting Twitter Access Token</string>
+    <string name="twitter_authorisation_success">Authorisation Successful</string>
+    <string name="twitter_authorisation_failure">Authorisation Failed.\n\nPlease retry shortly.</string>
+    <string name="twitter_processing_retry">Retry</string>
+
+    <string name="fragment_create_tweet_edit_tweet">Share your thoughts</string>
+
+    <!-- Information -->
+    <string name="about_information_url">http://www.ordnancesurvey.co.uk/business-and-government/products/os-openspace/android-sdk.html</string>
+
+    <!-- About -->
+    <string name="about_copyright_notice">Copyright Ordnance Survey 2013</string>
+    <string name="about_version">Version:</string>
+    <string name="about_support">Support:</string>
+    <string name="about_support_url">http://www.ordnancesurvey.co.uk/support/</string>
+    <string name="about_privacy">Privacy</string>
+    <string name="about_license">About License</string>
+    <string name="about_privacy_url">http://www.ordnancesurvey.co.uk/privacy.html</string>
+
+    <!-- Eula -->
+    <string name="eula_body">
+        By using Ordnance Surveys\'s mobile products and services (&#8220;Services&#8221;), you agree to be bound
+        by a) the Ordnance Survey Terms of Use
+        (http://www.ordnancesurvey.co.uk/business-and-government/products/os-openspace/pro/terms-service.html)
+        for OpenSpace related Services.
+    </string>
+    <string name="eula_copyright_year">\u00A92013</string>
+    <string name="eula_date">October 1, 2013</string>
+    <string name="eula_decline">Decline</string>
+    <string name="eula_footer">Any required attribution or notice for the third party content may be
+        found at http://www.ordnancesurvey.co.uk/legal.</string>
+    <string name="eula_title">Terms of Service</string>
+
+    <!-- Search -->
+    <string name="fragment_search_no_results">No Results Found</string>
+    <string name="fragment_search_place">Place</string>
+    <string name="fragment_search_postcode">Postcode</string>
+
+</resources>

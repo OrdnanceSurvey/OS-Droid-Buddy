@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/splash_main_logo">
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_centerInParent="true">
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:text="@string/splash_title" />
+
+            <ImageView
+                android:layout_margin="30dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_splashlogo"
+                android:id="@+id/splash_logo" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="@string/splash_blurb" />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:text="@string/splash_info" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_mainlogo"
+        android:id="@+id/splash_main_logo" />
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/search_background"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/fragment_search_filters"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/fragment_search_filter_place"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginRight="2dp"
+            android:text="@string/fragment_search_place"
+            android:background="@drawable/selector_btn_search_filter"
+            android:textColor="@drawable/selector_btn_search_filter_text"/>
+
+        <TextView
+            android:id="@+id/fragment_search_filter_postcode"
+            android:layout_height="wrap_content"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:layout_marginLeft="2dp"
+            android:gravity="center"
+            android:text="@string/fragment_search_postcode"
+            android:background="@drawable/selector_btn_search_filter"
+            android:textColor="@drawable/selector_btn_search_filter_text"/>
+
+        </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment_search_lst_results"
+        android:layout_below="@+id/fragment_search_filters"
+        android:textAppearance="@android:style/TextAppearance.Small"
+        android:background="@android:color/transparent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_search_no_results"
+        android:id="@+id/fragment_search_no_results_view"
+        android:layout_alignLeft="@+id/fragment_search_filters"
+        android:layout_below="@+id/fragment_search_filters"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+</RelativeLayout>

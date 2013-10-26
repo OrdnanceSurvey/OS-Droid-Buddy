@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <fragment
+        android:id="@+id/activity_main_frg_buddymap"
+        android:name="uk.co.ordnancesurvey.droidcon2013.android.app.BuddyMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_buddymap" />
+
+    <RelativeLayout
+        android:id="@+id/activity_main_layout_controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/search_background"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="4dp">
+
+        <LinearLayout
+            android:id="@+id/activity_main_layout_inner_controls"
+            android:orientation="horizontal"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/activity_main_img_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/activity_main_img_information"
+                android:src="@drawable/ic_action_place" />
+
+            <ImageView
+                android:id="@+id/activity_main_img_twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_centerVertical="true"
+                android:layout_alignTop="@+id/activity_main_img_overflow"
+                android:src="@drawable/twitter_bird_light_bgs" />
+
+            <ImageView
+                android:id="@+id/activity_main_img_overflow"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_action_overflow" />
+
+        </LinearLayout>
+
+        <SearchView
+            android:id="@+id/activity_main_search"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@id/activity_main_layout_inner_controls" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_main_container_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/activity_main_layout_controls" />
+
+</RelativeLayout>
